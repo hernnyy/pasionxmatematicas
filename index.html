@@ -49,11 +49,41 @@
   </div>
 </nav>
 <h1>Pasión x Matemática</h1>
-	<button type="button" class="btn btn-primary btn-lg btn-block">Aritmetica</button>
-	<button type="button" class="btn btn-secondary btn-lg btn-block">Algebra</button>
-	<button type="button" class="btn btn-primary btn-lg btn-block">Ecuaciones</button>
-	<p class="subtitulos">Aritmetica</p>
-	<p class="subtitulos2">Operaciones con numeros enteros</p>
+<div class="dropdown">
+  <button class="btn btn-primary btn-lg btn-block" type="button" id="ddm-aritmetica" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Aritmetica
+  </button>
+  <div class="dropdown-menu" aria-labelledby="ddm-aritmetica">
+    <a class="dropdown-item" href="aritmetica.html">operaciones con numeros naturales</a>
+    <a class="dropdown-item" href="#ultimoid">operaciones con numeros racionales</a>
+    <a class="dropdown-item" href="#">operaciones combinadas</a> 
+  </div>
+</div>
+<div class="dropdown">
+ <button class="btn btn-secondary btn-lg btn-block" type="button" id="ddm-algebra" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Algebra<span class="caret"></span></button>
+  </button>
+  <div class="dropdown-menu" aria-labelledby="ddm-algebra">
+    <a class="dropdown-item" href="#">Operaciones con expresiones algebraicas enteras</a>
+    <a class="dropdown-item" href="#">Suma y resta de monomios</a>
+    <a class="dropdown-item" href="#">Suma y resta de polinomios</a>
+    <a class="dropdown-item" href="#">Multiplicaion de polinomio por monomio</a>
+    <a class="dropdown-item" href="#">Multiplicacion de polinomios</a>
+    <a class="dropdown-item" href="#">Division de monomios</a>
+    <a class="dropdown-item" href="#">#</a>
+	</div>
+</div>
+<div class="dropdown">
+<button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Ecuaciones
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">operaciones con numeros naturales</a>
+    <a class="dropdown-item" href="#">operaciones con numeros racionales</a>
+    <a class="dropdown-item" href="#">operaciones combinadas</a>
+</div>
+</div>
+</body>
 	<p>Ejemplo</p>
 		<ol>
 			<li>Practica</li>
@@ -269,7 +299,7 @@
 			<li>Practica</li>
 			<li>Practica</li>
 		</ol>
-	<p class="subtitulos2">Multiplicaion de mononios</p>
+	<p class="subtitulos2">Suma y resta de monomios</p>
 		<ol>
 			<li>Practica</li>
 			<li>Practica</li>
@@ -293,6 +323,7 @@
 			<li>Practica</li>
 			<li>Practica</li>
 		</ol>
+	<section id="ultimoid"></section>
 	<p class="subtitulos2"> Division de polinomio por monomio</p>
 	<p class="subtitulos2">Division de dos polinmios enteros</p>
 	<p class="subtitulos2">Regla de ruffini</p>
